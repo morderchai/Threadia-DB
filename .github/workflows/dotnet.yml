@@ -22,10 +22,10 @@ jobs:
           dotnet-version: '8.0.x' # dopasuj do wersji, którą używasz
 
       - name: Restore dependencies
-        run: dotnet restore DB/DB.csproj
+        run: dotnet restore
 
       - name: Build
-        run: dotnet build DB/DB.csproj --configuration Release --no-restore
+        run: dotnet build --no-restore
 
       - name: Run tests (jeśli są)
         run: dotnet test DB/DB.csproj --no-build --verbosity normal
