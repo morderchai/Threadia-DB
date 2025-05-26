@@ -19,8 +19,4 @@
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.csproj" />
   </ItemGroup>
-  <ItemGroup>
-    <!-- usuń pliki common z kompilacji: -->
-    <Compile Remove="Common\**\*.cs" />
-  </ItemGroup>
 </Project>
