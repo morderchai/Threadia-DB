@@ -1,4 +1,4 @@
-﻿namespace DB.DbModels
+﻿namespace DB.DbEntities
 {
     public class Message :BaseEntity
     {

@@ -1,5 +1,5 @@
 ﻿
-using DB.DbModels;
+using DB.DbEntities;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 

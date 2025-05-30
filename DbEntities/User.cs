@@ -1,6 +1,6 @@
 ﻿using Common.Enums;
 
-namespace DB.DbModels
+namespace DB.DbEntities
 {
     public class User : BaseEntity
     {
@@ -10,5 +10,6 @@ namespace DB.DbModels
         public string Email { get; set; } = string.Empty;
         public string Password { get; set; } = string.Empty;
         public UserType Type { get; set; }  
+        public DateTime CreatedAt { get; set; }
     }
 }
