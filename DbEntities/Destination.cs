@@ -1,4 +1,6 @@
-﻿namespace DB.DbEntities
+﻿using Common.DbEntities;
+
+namespace UserService.DbEntities
 {
     public class Destination : BaseEntity
     {

@@ -1,7 +1,7 @@
-﻿using DB.DbEntities;
+﻿using UserService.DbEntities;
 using Microsoft.EntityFrameworkCore;
 
-namespace DB
+namespace UserService
 {
     public class AppDbContext : DbContext
     {
@@ -13,7 +13,5 @@ namespace DB
         public DbSet<User> Users { get; set; }
         public DbSet<Message> Messages { get; set; }
         public DbSet<Destination> Destinations { get; set; }
-        public DbSet<Tag> Tags { get; set; }
-        public DbSet<Post> Posts { get; set; }
     }
 }

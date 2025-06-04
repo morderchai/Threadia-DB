@@ -1,6 +1,7 @@
-﻿using Common.Enums;
+﻿using Common.DbEntities;
+using Common.Enums;
 
-namespace DB.DbEntities
+namespace UserService.DbEntities
 {
     public class User : BaseEntity
     {
